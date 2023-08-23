@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>></script>; -->
+
+    <title>Quién lo dijo? - Juego de preguntas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="base-frases.js"></script>
+    <script defer src="index.js"></script>
+
+</head>
+
+<body>
+    <h1>Quien lo Dijo?</h1>
+    
+    <div class="contenedor">
+        <div class="encabezado">
+            <div class="nivel" id="nivel"></div>
+            <span class="frase" id="frase"></span>
+        
+        <div class="opciones">
+            <div class="figura" id="btn1" onclick="seleccionarOpcion(0)"></div>
+            <div class="figura" id="btn2" onclick="seleccionarOpcion(1)"></div>
+            <div class="figura" id="btn3" onclick="seleccionarOpcion(2)"></div>
+        </div>
+        <div class="botonera">
+            <button class="btn btn-primary" id="reiniciar">Reiniciar</button>
+        </div>                    
+    </div>  
+    </div>
+
+</body>
+</html>

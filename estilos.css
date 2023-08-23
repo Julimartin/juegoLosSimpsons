@@ -1,0 +1,97 @@
+* {
+    transition: all 0.3s;
+}
+
+body {
+    background-color: rgba(14,156,222,255);
+    background-image: url(https://i.ibb.co/NrmR6fq/background.jpg);
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: "losSimpsons";
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 9px 2px 3px grey;
+    -webkit-text-stroke: 0.9px black;
+    margin-top: 30px;
+}
+
+.contenedor {
+    width: 100vw;
+    height: 50hw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.encabezado {
+    background-color: purple;
+    min-width: 300px;
+    width: 50%;
+    min-height: 100px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.nivel {
+    opacity: 0.8;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: yellow;
+}
+
+.frase {
+    padding: 10px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+    font-weight: 50px;
+}
+
+.opciones {
+    display: inline-flex;
+    padding:5px;
+    box-sizing: border-box;
+    
+}
+
+.figura {
+    background-color: white;
+    width: 150px;
+    height: 300px;
+    padding: 0;
+    margin: 20px;
+    border-radius: 20px;
+    border: solid 2px yellow;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; 
+}
+
+.figura:hover {
+    cursor: pointer;
+    transform:scale(1.05);
+}
+
+@font-face {
+    font-family: "losSimpsons";
+    src: url(./akbar.ttf);
+}
+
+.botonera {
+    padding: 10px;
+}
