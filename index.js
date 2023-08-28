@@ -7,7 +7,7 @@ function cargarFrase(index) {
     opciones = [...objetoFrase.distractores];
     opciones.push(objetoFrase.respuesta)
 
-    // opciones.sort(()=> Math.random()-0.5); //desorganiza las opciones
+    opciones.sort(()=> Math.random()-0.5); //desorganiza las opciones
     document.getElementById("nivel").innerHTML = objetoFrase.nivel;
     document.getElementById("frase").innerHTML = objetoFrase.frase;
     document.getElementById("nrofrase").innerHTML = "Frase: " + objetoFrase.numero;
